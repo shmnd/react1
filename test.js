@@ -410,3 +410,12 @@
 
 // Both onClick and onChange are essential for handling user interactions in React applications. They enable developers to respond to events and create interactive and dynamic user interfaces. These event handlers are used extensively when building forms, handling button clicks, and managing user input.
 
+
+
+//////////////////////////////////////   React router
+
+
+// React Router is a routing library for React that allows you to define multiple routes in your application and handle navigation between them.
+//  It is a popular choice for building single-page applications (SPAs), which are web applications that load a single HTML page and dynamically update that page as the user interacts with it.
+// React Router uses a declarative approach to routing, which means that you define your routes in code and React Router takes care of keeping the UI in sync with the URL. This makes it easy to create complex routing schemes without having to worry about the details of managing the history stack.
+// One of the key features of React Router is its support for nested routes. This allows you to create complex routing hierarchies that reflect the structure of your application. For example, you might have a route for a product catalog that contains nested routes for each product category
