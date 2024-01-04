@@ -378,6 +378,7 @@
 
 // export default ClickHandlerExample;
 
+// In this example, when the button is clicked, the handleClick function is called, displaying an alert.
 
 
 // b. onChange:
@@ -404,4 +405,8 @@
 // };
 
 // export default InputChangeHandlerExample;
+
+// In this example, the handleChange function is called whenever the input value changes. The input value is stored in the component's state (inputValue) and displayed below the input field.
+
+// Both onClick and onChange are essential for handling user interactions in React applications. They enable developers to respond to events and create interactive and dynamic user interfaces. These event handlers are used extensively when building forms, handling button clicks, and managing user input.
 
