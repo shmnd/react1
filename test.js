@@ -38,3 +38,10 @@
 // const sum= apple.map((apple)=> apple + apple)
 
 // console.log(sum)
+
+//////////////////////////////////////////////////// FILTER
+
+num=[42,32,46,34,74,53,73]
+
+console.log(num.filter(num=>num%2===0))
+
