@@ -64,3 +64,15 @@
 // console.log(res)
 
 
+//////////////////////////////////////////////////// DESTRUCTURING
+
+const per={
+    name:'shamnad',
+    age:23,
+    gender:'male'
+
+}
+
+let {name,age,gender='unknown',palce='manjeri'}=per
+
+console.log(name,age,gender,palce)
