@@ -346,3 +346,62 @@
 //     </div>
 //   );
 // };
+
+
+/////////////////////////////////////////////// Learn the concept of event handlers
+
+
+// Event handlers in React are functions that are executed in response to specific events, such as user interactions with the UI. Two commonly used event handlers are onClick and onChange. Let's explore each of them:
+
+
+// a. onClick
+// b. onChange
+
+
+// a. onClick:
+// The onClick event handler is used to handle click events on HTML elements, such as buttons, links, or any other interactive elements. When the element is clicked, the associated function is executed.
+
+// import React from 'react';
+
+// const ClickHandlerExample = () => {
+//   // Event handler function for click
+//   const handleClick = () => {
+//     alert('Button Clicked!');
+//   };
+
+//   return (
+//     <div>
+//       <button onClick={handleClick}>Click me</button>
+//     </div>
+//   );
+// };
+
+// export default ClickHandlerExample;
+
+
+
+// b. onChange:
+// The onChange event handler is used to handle changes in the value of form elements, such as input fields or select boxes. It is often used to capture user input.
+
+// import React, { useState } from 'react';
+
+// const InputChangeHandlerExample = () => {
+//   // State to hold the input value
+//   const [inputValue, setInputValue] = useState('');
+
+//   // Event handler function for input change
+//   const handleChange = (event) => {
+//     setInputValue(event.target.value);
+//   };
+
+//   return (
+//     <div>
+//       <label>Enter text: </label>
+//       <input type="text" value={inputValue} onChange={handleChange} />
+//       <p>You entered: {inputValue}</p>
+//     </div>
+//   );
+// };
+
+// export default InputChangeHandlerExample;
+
