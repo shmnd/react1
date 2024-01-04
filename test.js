@@ -66,13 +66,31 @@
 
 //////////////////////////////////////////////////// DESTRUCTURING
 
-const per={
-    name:'shamnad',
-    age:23,
-    gender:'male'
+// const per={
+//     name:'shamnad',
+//     age:23,
+//     gender:'male'
 
-}
+// }
 
-let {name,age,gender='unknown',palce='manjeri'}=per
+// let {age,name,gender='unknown',palce='manjeri'}=per
 
-console.log(name,age,gender,palce)
+// console.log(age,name,gender,palce)
+
+//////////////////////////////////////////////////// SPREDING
+
+            // TO FIND MAXIMUM VALUE
+
+// const num=[1,2,3,4,5]
+ 
+// const res=Math.max(...num)
+
+// console.log(res)
+
+
+            // TO FIND MINIMUM VALUE
+
+// const num=[1,2,3,4,5]
+// const res=Math.min(...num)
+
+// console.log(res)
