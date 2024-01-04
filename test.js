@@ -94,3 +94,37 @@
 // const res=Math.min(...num)
 
 // console.log(res)
+
+
+//////////////////////////////////////////////////// CLASS COMPONENT AND FUNCTIONAL COMPONENTS
+
+
+///////////////// CLASS COMPONENT
+
+// import React, { Component } from 'react'
+
+// export default class test extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>Hi World</h1>
+//       </div>
+//     )
+//   }
+// }
+
+
+// ///////////////// FUNCTIONAL COMPONENTS
+
+// import React from 'react'
+
+// function test() {
+//   return (
+//     <div>
+//       <h1>Hello World</h1>
+//     </div>
+//   )
+// }
+
+// export default test
+
